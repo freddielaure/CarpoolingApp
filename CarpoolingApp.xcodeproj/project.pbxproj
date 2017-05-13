@@ -15,6 +15,15 @@
 		0B666B321EC2FEF600DDD548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B666B301EC2FEF600DDD548 /* LaunchScreen.storyboard */; };
 		0B666B3D1EC2FEF600DDD548 /* CarpoolingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B666B3C1EC2FEF600DDD548 /* CarpoolingAppTests.swift */; };
 		0B666B481EC2FEF600DDD548 /* CarpoolingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B666B471EC2FEF600DDD548 /* CarpoolingAppUITests.swift */; };
+		0B666B581EC3004200DDD548 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B666B571EC3004200DDD548 /* SWRevealViewController.m */; };
+		0B666B5A1EC3128E00DDD548 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B666B591EC3128E00DDD548 /* MenuViewController.swift */; };
+		0B666B5C1EC3130000DDD548 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B666B5B1EC3130000DDD548 /* MenuTableViewCell.swift */; };
+		0B666B5E1EC4226300DDD548 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B666B5D1EC4226300DDD548 /* MessageViewController.swift */; };
+		0B9359DF1EC61AF10028E654 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B9359DE1EC61AF10028E654 /* fontawesome-webfont.ttf */; };
+		0B9359E11EC64DC90028E654 /* FontAwesomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9359E01EC64DC90028E654 /* FontAwesomeView.swift */; };
+		0B9359E61EC64DD40028E654 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9359E21EC64DD40028E654 /* Enum.swift */; };
+		0B9359E71EC64DD40028E654 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B9359E41EC64DD40028E654 /* FontAwesome.otf */; };
+		0B9359E81EC64DD40028E654 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9359E51EC64DD40028E654 /* FontAwesome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,18 @@
 		0B666B431EC2FEF600DDD548 /* CarpoolingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarpoolingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B666B471EC2FEF600DDD548 /* CarpoolingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarpoolingAppUITests.swift; sourceTree = "<group>"; };
 		0B666B491EC2FEF600DDD548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B666B551EC3004100DDD548 /* CarpoolingApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarpoolingApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B666B561EC3004200DDD548 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../SWRevealViewController-master-2/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
+		0B666B571EC3004200DDD548 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../SWRevealViewController-master-2/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
+		0B666B591EC3128E00DDD548 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		0B666B5B1EC3130000DDD548 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		0B666B5D1EC4226300DDD548 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		0B9359DE1EC61AF10028E654 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "fontawesome-webfont.ttf"; path = "../../../../Downloads/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		0B9359E01EC64DC90028E654 /* FontAwesomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontAwesomeView.swift; path = "../../../../Downloads/FontAwesome.swift-master/FontAwesome/FontAwesomeView.swift"; sourceTree = "<group>"; };
+		0B9359E21EC64DD40028E654 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = "../../../../Downloads/FontAwesome.swift-master/FontAwesome/Enum.swift"; sourceTree = "<group>"; };
+		0B9359E31EC64DD40028E654 /* FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontAwesome.h; path = "../../../../Downloads/FontAwesome.swift-master/FontAwesome/FontAwesome.h"; sourceTree = "<group>"; };
+		0B9359E41EC64DD40028E654 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = "../../../../Downloads/FontAwesome.swift-master/FontAwesome/FontAwesome.otf"; sourceTree = "<group>"; };
+		0B9359E51EC64DD40028E654 /* FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = "../../../../Downloads/FontAwesome.swift-master/FontAwesome/FontAwesome.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +120,25 @@
 		0B666B231EC2FEF600DDD548 /* CarpoolingApp */ = {
 			isa = PBXGroup;
 			children = (
+				0B666B561EC3004200DDD548 /* SWRevealViewController.h */,
+				0B666B571EC3004200DDD548 /* SWRevealViewController.m */,
 				0B666B241EC2FEF600DDD548 /* AppDelegate.swift */,
 				0B666B261EC2FEF600DDD548 /* ViewController.swift */,
 				0B666B281EC2FEF600DDD548 /* Main.storyboard */,
+				0B9359DE1EC61AF10028E654 /* fontawesome-webfont.ttf */,
+				0B9359E21EC64DD40028E654 /* Enum.swift */,
+				0B9359E31EC64DD40028E654 /* FontAwesome.h */,
+				0B9359E41EC64DD40028E654 /* FontAwesome.otf */,
+				0B9359E51EC64DD40028E654 /* FontAwesome.swift */,
+				0B9359E01EC64DC90028E654 /* FontAwesomeView.swift */,
+				0B666B5D1EC4226300DDD548 /* MessageViewController.swift */,
+				0B666B5B1EC3130000DDD548 /* MenuTableViewCell.swift */,
+				0B666B591EC3128E00DDD548 /* MenuViewController.swift */,
 				0B666B2E1EC2FEF600DDD548 /* Assets.xcassets */,
 				0B666B301EC2FEF600DDD548 /* LaunchScreen.storyboard */,
 				0B666B331EC2FEF600DDD548 /* Info.plist */,
 				0B666B2B1EC2FEF600DDD548 /* CarpoolingApp.xcdatamodeld */,
+				0B666B551EC3004100DDD548 /* CarpoolingApp-Bridging-Header.h */,
 			);
 			path = CarpoolingApp;
 			sourceTree = "<group>";
@@ -196,6 +229,7 @@
 				TargetAttributes = {
 					0B666B201EC2FEF600DDD548 = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					0B666B371EC2FEF600DDD548 = {
@@ -236,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B666B321EC2FEF600DDD548 /* LaunchScreen.storyboard in Resources */,
+				0B9359E71EC64DD40028E654 /* FontAwesome.otf in Resources */,
+				0B9359DF1EC61AF10028E654 /* fontawesome-webfont.ttf in Resources */,
 				0B666B2F1EC2FEF600DDD548 /* Assets.xcassets in Resources */,
 				0B666B2A1EC2FEF600DDD548 /* Main.storyboard in Resources */,
 			);
@@ -262,9 +298,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B9359E81EC64DD40028E654 /* FontAwesome.swift in Sources */,
 				0B666B271EC2FEF600DDD548 /* ViewController.swift in Sources */,
+				0B666B5A1EC3128E00DDD548 /* MenuViewController.swift in Sources */,
+				0B666B5C1EC3130000DDD548 /* MenuTableViewCell.swift in Sources */,
+				0B9359E11EC64DC90028E654 /* FontAwesomeView.swift in Sources */,
 				0B666B251EC2FEF600DDD548 /* AppDelegate.swift in Sources */,
+				0B9359E61EC64DD40028E654 /* Enum.swift in Sources */,
 				0B666B2D1EC2FEF600DDD548 /* CarpoolingApp.xcdatamodeld in Sources */,
+				0B666B581EC3004200DDD548 /* SWRevealViewController.m in Sources */,
+				0B666B5E1EC4226300DDD548 /* MessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,10 +461,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CarpoolingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "laure.tchagam-yahoo.de.CarpoolingApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CarpoolingApp/CarpoolingApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -430,10 +476,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CarpoolingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "laure.tchagam-yahoo.de.CarpoolingApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CarpoolingApp/CarpoolingApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -511,6 +559,7 @@
 				0B666B4E1EC2FEF600DDD548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B666B4F1EC2FEF600DDD548 /* Build configuration list for PBXNativeTarget "CarpoolingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +568,7 @@
 				0B666B511EC2FEF600DDD548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B666B521EC2FEF600DDD548 /* Build configuration list for PBXNativeTarget "CarpoolingAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +577,7 @@
 				0B666B541EC2FEF600DDD548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
