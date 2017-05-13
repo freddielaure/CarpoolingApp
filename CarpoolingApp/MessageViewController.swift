@@ -37,10 +37,8 @@ class MessageViewController: UIViewController,UINavigationBarDelegate,UINavigati
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        var faicon = [String:UniChar]()
-        
-        faicon["famusic"]=0xf192
-        faicon["famusicMinus"]=0xf056
+         fontawesone1()
+         fontawesone2()
         
 
         btnButtonme.target = revealViewController()
@@ -49,22 +47,10 @@ class MessageViewController: UIViewController,UINavigationBarDelegate,UINavigati
         navigationController?.navigationBar.barTintColor = UIColor(red:0.25, green:0.60, blue:1.00, alpha:1.0)
         navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
         
-        lblTextLabel.font = UIFont(name: "FontAwesome", size:25)
-        lblTextLabel.text = String(format: "%C",faicon["famusic"]!)
         
-        lblFontAwason.font = UIFont(name: "FontAwesome", size:25)
-        lblFontAwason.text = String(format: "%C",faicon["famusic"]!)
-        
-     
      
        
 
-        btnMinusButton.titleLabel?.font = UIFont.fontAwesome(ofSize: 20)
-        btnMinusButton.setTitle(String.fontAwesomeIcon(name: .minusCircle), for: .normal)
-        
-        
-        btnPlusButton.titleLabel?.font = UIFont.fontAwesome(ofSize: 20)
-        btnPlusButton.setTitle(String.fontAwesomeIcon(name: .plusCircle), for: .normal)
         
         
         btnPlusButton.tag = 5
@@ -117,6 +103,37 @@ class MessageViewController: UIViewController,UINavigationBarDelegate,UINavigati
     }
         
     }
+    func fontawesone1(){
+        var faicon = [String:UniChar]()
+        
+        faicon["famusic"]=0xf192
+        faicon["famusicMinus"]=0xf056
+        
+        
+        lblTextLabel.font = UIFont(name: "FontAwesome", size:25)
+        lblTextLabel.text = String(format: "%C",faicon["famusic"]!)
+        
+        lblFontAwason.font = UIFont(name: "FontAwesome", size:25)
+        lblFontAwason.text = String(format: "%C",faicon["famusic"]!)
+        
+
+        
+    }
+    
+    
+    
+    func fontawesone2(){
+        
+        btnMinusButton.titleLabel?.font = UIFont.fontAwesome(ofSize: 20)
+        btnMinusButton.setTitle(String.fontAwesomeIcon(name: .minusCircle), for: .normal)
+        
+        
+        btnPlusButton.titleLabel?.font = UIFont.fontAwesome(ofSize: 20)
+        btnPlusButton.setTitle(String.fontAwesomeIcon(name: .plusCircle), for: .normal)
+        
+        
+    }
+
     
     
     
