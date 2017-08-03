@@ -10,11 +10,11 @@ import UIKit
 
 class MessageViewController: UIViewController,UINavigationBarDelegate,UINavigationControllerDelegate {
 
+    @IBOutlet weak var btnButtonme: UIBarButtonItem!
    
     @IBOutlet weak var lblTextLabel: UILabel!
     
     @IBOutlet weak var lblFontAwason: UILabel!
-    @IBOutlet weak var btnButtonme: UIBarButtonItem!
     
     @IBOutlet weak var textField1: UITextField!
     
@@ -30,7 +30,12 @@ class MessageViewController: UIViewController,UINavigationBarDelegate,UINavigati
     @IBOutlet weak var btnPlusButton: UIButton!
     
     @IBOutlet weak var lblNumberPerson: UILabel!
-    var numberplus=0
+    
+    @IBOutlet weak var btnSearchButton: UIButton!
+    
+    
+    
+    var numberplus=1
     
 
 
@@ -39,6 +44,11 @@ class MessageViewController: UIViewController,UINavigationBarDelegate,UINavigati
         super.viewDidLoad()
          fontawesone1()
          fontawesone2()
+        
+        self.navigationController?.isToolbarHidden = false
+        
+        self.navigationController?.toolbar.barTintColor=UIColor(red:0.13, green:0.46, blue:0.64, alpha:1.0)
+       
         
 
         btnButtonme.target = revealViewController()
@@ -73,6 +83,8 @@ class MessageViewController: UIViewController,UINavigationBarDelegate,UINavigati
         
 
         
+        btnSearchButton.layer.cornerRadius = 15
+      
 
        
     }
@@ -97,7 +109,7 @@ class MessageViewController: UIViewController,UINavigationBarDelegate,UINavigati
     func buttonClickedminus(sender:UIButton)
     {
         print("hello")
-        if(numberplus>0){
+        if(numberplus>1){
         numberplus -= 1
         self.lblNumberPerson.text = String(numberplus)
     }

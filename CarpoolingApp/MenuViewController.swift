@@ -19,8 +19,8 @@ class MenuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
 
         // Do any additional setup after loading the view.
         
-        menuNameArr = ["Home","Fahrt finden","Fahrt anbieten","Setting"]
-        iconeImage = [UIImage(named: "home")!,UIImage(named: "search")!,UIImage(named: "addImage")!,UIImage(named: "setting")!]
+        menuNameArr = ["Home","Fahrt finden","Fahrt anbieten","Einloggen","Kostenlos anmelden"]
+        iconeImage = [UIImage(named: "home")!,UIImage(named: "search")!,UIImage(named: "addImage")!,UIImage(named: "logo-login")!,UIImage(named: "login-avatar")!]
         
         ImgProfil.layer.borderColor = UIColor(red:0.25, green:0.60, blue:1.00, alpha:1.0)
 .cgColor
@@ -73,14 +73,48 @@ class MenuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             
             revealViewController.pushFrontViewController(newFrontviewController, animated: true)
         }
+        
+        
+        
         if cell.lblMenuName.text! == "Fahrt anbieten"
         {
-            print("Fahrt anbieten Tapped")
+            let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let desController = mainStoryboard.instantiateViewController(withIdentifier: "Message2ViewController") as! Message2ViewController
+            let newFrontviewController = UINavigationController.init(rootViewController:desController)
+            
+            revealViewController.pushFrontViewController(newFrontviewController, animated: true)
         }
-        if cell.lblMenuName.text! == "Setting"
+        
+        
+        
+        if cell.lblMenuName.text! == "Einloggen"
+        {
+            let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let desController = mainStoryboard.instantiateViewController(withIdentifier: "EinloggenViewController") as! EinloggenViewController
+            let newFrontviewController = UINavigationController.init(rootViewController:desController)
+            
+            revealViewController.pushFrontViewController(newFrontviewController, animated: true)
+        }
+        
+        
+        if cell.lblMenuName.text! == "Kostenlos anmelden"
+        {
+            let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let desController = mainStoryboard.instantiateViewController(withIdentifier: "RegistrierungViewController") as! RegistrierungViewController
+            let newFrontviewController = UINavigationController.init(rootViewController:desController)
+            
+            revealViewController.pushFrontViewController(newFrontviewController, animated: true)
+        }
+
+        
+
+        
+        
+        
+       /* if cell.lblMenuName.text! == "Setting"
         {
             print("setting Tapped")
-        }
+        }*/
     }
     
  

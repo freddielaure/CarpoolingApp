@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0C42521EC9E67B0010E11A /* Message2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0C42511EC9E67B0010E11A /* Message2ViewController.swift */; };
+		0B3AD4F21F1DF81700B79278 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B3AD4F11F1DF81700B79278 /* FBSDKLoginKit.framework */; };
+		0B3AD4F41F1DF82200B79278 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B3AD4F31F1DF82200B79278 /* FBSDKShareKit.framework */; };
+		0B3AD4F61F1DF83300B79278 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B3AD4F51F1DF83300B79278 /* FBSDKCoreKit.framework */; };
 		0B666B251EC2FEF600DDD548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B666B241EC2FEF600DDD548 /* AppDelegate.swift */; };
 		0B666B271EC2FEF600DDD548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B666B261EC2FEF600DDD548 /* ViewController.swift */; };
 		0B666B2A1EC2FEF600DDD548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B666B281EC2FEF600DDD548 /* Main.storyboard */; };
@@ -24,6 +28,8 @@
 		0B9359E61EC64DD40028E654 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9359E21EC64DD40028E654 /* Enum.swift */; };
 		0B9359E71EC64DD40028E654 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B9359E41EC64DD40028E654 /* FontAwesome.otf */; };
 		0B9359E81EC64DD40028E654 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9359E51EC64DD40028E654 /* FontAwesome.swift */; };
+		0BB720AC1EE3261200055418 /* EinloggenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB720AB1EE3261200055418 /* EinloggenViewController.swift */; };
+		0BB720AE1EE3309200055418 /* RegistrierungViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB720AD1EE3309200055418 /* RegistrierungViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B0C42511EC9E67B0010E11A /* Message2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message2ViewController.swift; sourceTree = "<group>"; };
+		0B3AD4F11F1DF81700B79278 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = SOURCE_ROOT; };
+		0B3AD4F31F1DF82200B79278 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "FacebookSDKs-iOS-4/FBSDKShareKit.framework"; sourceTree = SOURCE_ROOT; };
+		0B3AD4F51F1DF83300B79278 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = SOURCE_ROOT; };
 		0B666B211EC2FEF600DDD548 /* CarpoolingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarpoolingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B666B241EC2FEF600DDD548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B666B261EC2FEF600DDD548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +80,8 @@
 		0B9359E31EC64DD40028E654 /* FontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontAwesome.h; path = "../../../../Downloads/FontAwesome.swift-master/FontAwesome/FontAwesome.h"; sourceTree = "<group>"; };
 		0B9359E41EC64DD40028E654 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.otf; path = "../../../../Downloads/FontAwesome.swift-master/FontAwesome/FontAwesome.otf"; sourceTree = "<group>"; };
 		0B9359E51EC64DD40028E654 /* FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = "../../../../Downloads/FontAwesome.swift-master/FontAwesome/FontAwesome.swift"; sourceTree = "<group>"; };
+		0BB720AB1EE3261200055418 /* EinloggenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EinloggenViewController.swift; sourceTree = "<group>"; };
+		0BB720AD1EE3309200055418 /* RegistrierungViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrierungViewController.swift; path = ../RegistrierungViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B3AD4F41F1DF82200B79278 /* FBSDKShareKit.framework in Frameworks */,
+				0B3AD4F61F1DF83300B79278 /* FBSDKCoreKit.framework in Frameworks */,
+				0B3AD4F21F1DF81700B79278 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,18 +135,24 @@
 		0B666B231EC2FEF600DDD548 /* CarpoolingApp */ = {
 			isa = PBXGroup;
 			children = (
+				0B3AD4F51F1DF83300B79278 /* FBSDKCoreKit.framework */,
+				0B3AD4F31F1DF82200B79278 /* FBSDKShareKit.framework */,
+				0B3AD4F11F1DF81700B79278 /* FBSDKLoginKit.framework */,
 				0B666B561EC3004200DDD548 /* SWRevealViewController.h */,
 				0B666B571EC3004200DDD548 /* SWRevealViewController.m */,
 				0B666B241EC2FEF600DDD548 /* AppDelegate.swift */,
 				0B666B261EC2FEF600DDD548 /* ViewController.swift */,
-				0B666B281EC2FEF600DDD548 /* Main.storyboard */,
 				0B9359DE1EC61AF10028E654 /* fontawesome-webfont.ttf */,
+				0B666B281EC2FEF600DDD548 /* Main.storyboard */,
 				0B9359E21EC64DD40028E654 /* Enum.swift */,
 				0B9359E31EC64DD40028E654 /* FontAwesome.h */,
 				0B9359E41EC64DD40028E654 /* FontAwesome.otf */,
 				0B9359E51EC64DD40028E654 /* FontAwesome.swift */,
 				0B9359E01EC64DC90028E654 /* FontAwesomeView.swift */,
+				0BB720AB1EE3261200055418 /* EinloggenViewController.swift */,
+				0BB720AD1EE3309200055418 /* RegistrierungViewController.swift */,
 				0B666B5D1EC4226300DDD548 /* MessageViewController.swift */,
+				0B0C42511EC9E67B0010E11A /* Message2ViewController.swift */,
 				0B666B5B1EC3130000DDD548 /* MenuTableViewCell.swift */,
 				0B666B591EC3128E00DDD548 /* MenuViewController.swift */,
 				0B666B2E1EC2FEF600DDD548 /* Assets.xcassets */,
@@ -302,8 +323,11 @@
 				0B666B271EC2FEF600DDD548 /* ViewController.swift in Sources */,
 				0B666B5A1EC3128E00DDD548 /* MenuViewController.swift in Sources */,
 				0B666B5C1EC3130000DDD548 /* MenuTableViewCell.swift in Sources */,
+				0B0C42521EC9E67B0010E11A /* Message2ViewController.swift in Sources */,
 				0B9359E11EC64DC90028E654 /* FontAwesomeView.swift in Sources */,
 				0B666B251EC2FEF600DDD548 /* AppDelegate.swift in Sources */,
+				0BB720AC1EE3261200055418 /* EinloggenViewController.swift in Sources */,
+				0BB720AE1EE3309200055418 /* RegistrierungViewController.swift in Sources */,
 				0B9359E61EC64DD40028E654 /* Enum.swift in Sources */,
 				0B666B2D1EC2FEF600DDD548 /* CarpoolingApp.xcdatamodeld in Sources */,
 				0B666B581EC3004200DDD548 /* SWRevealViewController.m in Sources */,
@@ -462,9 +486,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4",
+				);
 				INFOPLIST_FILE = CarpoolingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "laure.tchagam-yahoo.de.CarpoolingApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarpoolingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CarpoolingApp/CarpoolingApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -477,9 +505,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4",
+				);
 				INFOPLIST_FILE = CarpoolingApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "laure.tchagam-yahoo.de.CarpoolingApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CarpoolingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "CarpoolingApp/CarpoolingApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
